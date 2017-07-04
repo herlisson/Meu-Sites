@@ -1,0 +1,79 @@
+/* Fonte */
+@import url("https://fonts.googleapis.com/css?family=Exo+2:200,300,400,600,800");
+
+/* Tudo */
+* {
+	font-weight: 400;
+	font-family: 'Exo 2', sans-serif;
+	text-align: justify;
+}
+
+/* Elementos HTML */
+body {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 4.8%;
+	padding-right: 26%;
+	background-image: url('img/jh.png');
+}
+h1 {
+	font-weight: 800;
+	font-size: 2em;
+	line-height: 0.8px;
+}
+h2 {
+	color: #B00B00;
+	font-weight: 800;
+	font-size: 2em;
+	line-height: 0.1px;
+}
+h3 {
+	font-weight: 800;
+	font-size: 1.2em;
+	line-height: 0.1px;
+}
+p {
+	font-weight: 300;
+	line-height: 18px;
+}
+br.p {
+   display: block;
+   margin: 5px 0;
+}
+
+/* Classes */
+p.exception{
+	color: #B00B00;
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+}
+.alerta {
+	border-style: dotted;
+	border-color: #DE1F1C;
+	border-radius: 1px;
+	line-height: 22px;
+	padding: 4px 10px 4px 10px;
+}
+.box {
+	background-color: white;
+	background-size: contain;
+	padding: 8px 18px 8px 18px;
+	border-radius: 3px;
+}
+.narutista {
+	bottom: 0;
+	right: 0px;
+	position: fixed;
+	height: auto;
+	z-index: -1;
+	opacity: 0.3;
+}
+.button {
+    background-color: white;
+    color: black;
+    border: 1px solid #DE1F1C;
+    cursor: pointer;
+    margin-right: 6px;
+    margin-bottom: 4px;
+}
